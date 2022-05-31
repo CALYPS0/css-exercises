@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -24,4 +26,46 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgray;
+  margin-top: auto;
+}
+
+.left-links {
+  display: flex;
+  gap: 15px;
+}
+
+.right-links {
+  display: flex;
+  gap: 15px;
+  margin-right: 40px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: auto;
 }
